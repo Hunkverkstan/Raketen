@@ -734,7 +734,8 @@ hr {
   padding: 0.5rem 1rem;
   border-radius: 100px;
   margin-top: -0.5rem;
-  float: right; }
+  float: right; 
+  letter-spacing: 0!important;}
 
 .year-stats-box {
   cursor: pointer; }
