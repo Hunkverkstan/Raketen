@@ -57,24 +57,25 @@ window.addEventListener('scroll', function() {
 
   feather.replace()
 
-$(".year-stats").click(function() {
+$(".year-stats-box").click(function() {
   var yearStatsInfo = $(this).closest(".history-container").find(".year-stats-info");
-  var yearStatsPlus = $(this).closest(".history-container").find(".stats-plus");
-  var yearStatsMinus = $(this).closest(".history-container").find(".stats-minus");
+  var yearStatsPlus = $(this).find(".stats-plus");
+  var yearStatsMinus = $(this).find(".stats-minus");
+  var textSpan = $(this).find(".year-stats"); // Hitta textdelen som ändras
 
   if (yearStatsInfo.is(":visible")) {
     yearStatsInfo.slideUp(100);
-    $(this).text("Visa ");
-    yearStatsMinus.toggle();  
-    yearStatsPlus.toggle(); 
+    textSpan.text("Visa "); // Ändra bara texten
+    yearStatsMinus.hide();
+    yearStatsPlus.show();
   } else {
     yearStatsInfo.slideDown(250);
-    $(this).text("Dölj ");
-    yearStatsMinus.toggle();  
-    yearStatsPlus.toggle(); 
+    textSpan.text("Dölj "); // Ändra bara texten
+    yearStatsMinus.show();
+    yearStatsPlus.hide();
   }
-
 });
+
 
 
 
