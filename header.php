@@ -26,13 +26,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon-16x16.png">
+<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon.png">
+<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon-16x16.png" type="image/png" sizes="16x16">
 <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/favicons/site.webmanifest">
-<link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/favicons/safari-pinned-tab.svg" color="#37dd7f">
-<meta name="msapplication-TileColor" content="#37dd7f">
-<meta name="theme-color" content="#37dd7f">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 
 <!-- Header & Nav-->
 <?php wp_head();?>
