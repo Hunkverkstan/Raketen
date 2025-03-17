@@ -1,0 +1,42 @@
+<!-- Content -->
+
+<?php if (is_404()): ?>
+<?php else: ?>
+
+<div id="footer" class="bg4">
+<img class="marg-small" src="<?php echo get_template_directory_uri(); ?>/img/rekraketer_logo_white.png">
+<p id="footer-info" class="text2 marg-medium"><?php the_field('website_description', 'option'); ?></p>
+<div class="marg-small">
+
+<?php if( have_rows('website_links', 'options') ): ?>
+<div class="button-grp">
+<?php while( have_rows('website_links', 'options') ): the_row(); ?>
+<a class="button bg1 text1" href="<?php the_sub_field('website_links_LINK'); ?>" target="_blank"><?php the_sub_field('website_links_TITLE'); ?></a>    
+<?php endwhile; ?>
+</div>
+<?php endif; ?>
+
+</div>
+<p class="text2 marg-no">Skapades av <a href="https://www.hunkverkstan.com" target="_blank">Hunkverkstan</a></p>    
+<p class="text2">Alla rättigheter reserverade • <?php
+$year = date('Y');
+echo $year;
+?>
+</p>
+</div>
+</div>
+
+<?php endif; ?>
+
+<!-- Sidebar edit bar -->
+<?php if( current_user_can('editor') || current_user_can('administrator') ) {  ?> 
+<div id="sidebar-edit" class="float">
+<a href="<?php echo get_home_url(); ?>/wp-admin"><p class="sidebar-edit-text">Till redigerarläget</p></a>
+</div>
+<?php } ?>
+        
+<!-- Footer & Scripts -->
+<?php wp_footer(); ?>
+
+</body>
+</html>
