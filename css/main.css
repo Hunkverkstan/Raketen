@@ -370,7 +370,7 @@ body {
 .container {
   position: relative;
   width: 100%;
-  padding: 95px 20px 20px 20px;
+  padding: 75px 20px 20px 20px;
   max-width: 700px;
   margin: 0 auto;
   box-sizing: border-box; }
@@ -506,7 +506,7 @@ body {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
 
 #nav-logo, #error-nav-logo {
-  width: 158px;
+  width: 153px;
   height: 19px;
   background-size: contain;
   background-repeat: no-repeat; }
@@ -825,7 +825,7 @@ body.dark .segment-block {
   #footer {
     margin-left: 10rem;
     margin-top: 2.5rem;
-    padding: 4rem 10rem 6rem 0;
+    padding: 6rem 10rem 7rem 0;
     border-top-left-radius: 200px;} 
 #footer img {
   width: 250px; }
