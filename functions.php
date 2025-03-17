@@ -13,20 +13,6 @@
 
     add_action( 'wp_enqueue_scripts', 'main_scripts' );
 
-// Add Google Fonts
-function main_google_fonts() {
-    // Lägg till preconnect för bättre prestanda
-    echo '<link rel="preconnect" href="https://fonts.googleapis.com">' . "\n";
-    echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
-}
-add_action('wp_head', 'main_google_fonts');
-
-function enqueue_google_fonts() {
-    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap', false);
-}
-add_action('wp_enqueue_scripts', 'enqueue_google_fonts');
-
-
 // Disable Gutenberg
 add_filter('use_block_editor_for_post', '__return_false');
 

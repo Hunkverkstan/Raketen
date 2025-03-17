@@ -3,6 +3,7 @@
 <?php if (is_404()): ?>
 <?php else: ?>
 
+</div>
 <div id="footer" class="bg4">
 <img class="marg-small" src="<?php echo get_template_directory_uri(); ?>/img/rekraketer_logo_white.png">
 <p id="footer-info" class="text2 marg-medium"><?php the_field('website_description', 'option'); ?></p>
@@ -25,7 +26,7 @@ echo $year;
 ?>
 </p>
 </div>
-</div>
+
 
 <?php endif; ?>
 

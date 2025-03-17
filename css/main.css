@@ -319,29 +319,32 @@ a.no:hover {
   background-color: #37dd7f; }
 
 .primary-bg-tone {
-  background-color: #E9FBEB; }
+  background-color: #f6fdf9;border:1px solid #b4f2cf; }
 
 .secondary-bg {
   background-color: #5C50E2; }
 
 .secondary-bg-tone {
-  background-color: #EBE9FB; }
+  background-color: #f7f7fd;border:1px solid #c2bdf4; }
 
 .third-bg {
   background-color: #E2508D; }
 
 .third-bg-tone {
-  background-color: #FBEBE9; }
+  background-color: #fdf7f7;border:1px solid #f4bdd4; }
 
 .fourth-bg {
   background-color: #FF9900; }
 
 .fourth-bg-tone {
-  background-color: #FFF2DF; }
+  background-color: #fffaf3;border:1px solid #ffd99f; }
 
 /* Dark mode –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body.dark .coffee-bg-tone, body.dark .twitter-bg-tone, body.dark .primary-bg-tone, body.dark .secondary-bg-tone, body.dark .third-bg-tone, body.dark .fourth-bg-tone, body.dark .bg1, body.dark .bg2, body.dark .bg3 {
   background-color: #273646; }
+
+body.dark .primary-bg-tone, body.dark .secondary-bg-tone, body.dark .third-bg-tone, body.dark .fourth-bg-tone {
+border:1px solid #273646;}
 
 body.dark .text1, body.dark .coffee, body.dark .twitter {
   color: #fafafa; }
@@ -538,10 +541,10 @@ body {
   bottom: 120px; }
 
 .svg1 {
-  fill: #A390E4; }
+  fill: #37dd7f; }
 
 .svg2 {
-  fill: #C69DD2; }
+  fill: #37dd7f; }
 
 /* Dark mode switch –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .switch {
@@ -667,8 +670,9 @@ hr {
   text-align: center; }
 
 .bg-block-2 {
-  width: calc(50% - 6rem);
-  padding: 4rem 2rem; }
+  width: calc(50% - 2rem);
+  padding: 4rem 2rem;
+  box-sizing: border-box;}
 
 .segment-block {
   display: inline-block;
@@ -747,13 +751,12 @@ hr {
   display: none; }
 
 #footer {
-  padding: 3rem 3rem 4rem 3rem;
-  margin-left: -1rem;
-  border-radius: 20px 40px 40px 40px;
-  width: calc(100% - 4rem); }
+  text-align: center;
+  padding: 4rem 2rem 5rem 2rem; }
 
 #footer-info {
-  max-width: 450px; }
+  max-width: 450px;
+  margin: 0 auto 2rem auto;}
 
 #footer img {
   width: 200px; }
@@ -817,12 +820,15 @@ body.dark .segment-block {
     line-height: 1.2; } }
 
 @media only screen and (min-width: 1250px) {
-  .bg-block-2 {
-    width: calc(25% - 7rem);
+  .bg-block-2 { 
     padding: 4rem 2.5rem; }
   #footer {
-    margin-left: -3rem;
+    margin-left: 10rem;
     margin-top: 2.5rem;
-    padding: 4rem 5rem 6rem 5rem; } }
+    padding: 4rem 10rem 6rem 0;
+    border-top-left-radius: 200px;} 
+#footer img {
+  width: 250px; }
+}
 
 /*# sourceMappingURL=main.css.map */
