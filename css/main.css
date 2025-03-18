@@ -292,7 +292,7 @@ a.no:hover {
   background-color: #9D6248; }
 
 .coffee-bg-tone {
-  background-color: #F9F5F3; }
+  background-color: #faf1ec; }
 
 .twitter {
   color: #1DA1F2; }
@@ -301,7 +301,7 @@ a.no:hover {
   background-color: #1DA1F2; }
 
 .twitter-bg-tone {
-  background-color: #F1F9FE; }
+  background-color: #eaf4fb; }
 
 .bg1 {
   background-color: #ffffff; }
@@ -310,7 +310,7 @@ a.no:hover {
   background-color: #f0f5f8; }
 
 .bg3 {
-  background-color: #F6F9FB; }
+  background-color: #eef4fa; }
 
 .bg4 {
   background-color: #273646; }
@@ -325,7 +325,7 @@ a.no:hover {
   background-color: #5C50E2; }
 
 .secondary-bg-tone {
-  background-color: #f7f7fd;border:1px solid #c2bdf4; }
+  background-color: #F3F3FB;border:1px solid #c2bdf4; }
 
 .third-bg {
   background-color: #E2508D; }
@@ -337,7 +337,7 @@ a.no:hover {
   background-color: #FF9900; }
 
 .fourth-bg-tone {
-  background-color: #fffaf3;border:1px solid #ffd99f; }
+  background-color: #FDF6EC;border:1px solid #ffd99f; }
 
 /* Dark mode –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body.dark .coffee-bg-tone, body.dark .twitter-bg-tone, body.dark .primary-bg-tone, body.dark .secondary-bg-tone, body.dark .third-bg-tone, body.dark .fourth-bg-tone, body.dark .bg1, body.dark .bg2, body.dark .bg3 {
@@ -361,6 +361,7 @@ body {
   line-height: 1.4;
   font-family: "Inter", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
+  background-color:#FBFBFF;
   color: #373F51;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -486,7 +487,7 @@ body {
 
 /* Nav imported –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #nav-header {
-  background-color: #ffffff;
+  background-color:#FBFBFF;
   z-index: 1;
   padding: 1.5rem 0;
   transition: top 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
@@ -567,7 +568,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f0f5f8;
+  background-color: #ebf1f7;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   -webkit-tap-highlight-color: transparent; }
@@ -752,7 +753,9 @@ hr {
 
 #footer {
   text-align: center;
-  padding: 4rem 2rem 5rem 2rem; }
+  padding: 4rem 2rem 5rem 2rem; 
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;}
 
 #footer-info {
   max-width: 450px;
@@ -826,7 +829,8 @@ body.dark .segment-block {
     margin-left: 10rem;
     margin-top: 2.5rem;
     padding: 6rem 10rem 7rem 0;
-    border-top-left-radius: 200px;} 
+    border-top-left-radius: 200px;
+    border-top-right-radius: 0;} 
 #footer img {
   width: 250px; }
 }

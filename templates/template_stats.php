@@ -17,5 +17,5 @@
 <h3 class="primary marg-small">Vinster</h3><h4 class="text1"><?php echo do_shortcode('[get_sheet_value location="Summering!G4"]'); ?></h4>
 </div>
 
-<div id="betting-info" class="bg3 text2"><i class="marg-right" data-feather="info"></i> Du hittar levande och tidigare spel samt all statistik på Bettin.gs genom att <a href="https://bettin.gs/Rekraketer" target="_blank">klicka här</a>.</div>
+<div id="betting-info" class="bg3 text2"><i class="marg-right" data-feather="info"></i> Du hittar tidigare spel samt all statistik på Bettin.gs genom att <a href="https://bettin.gs/Rekraketer" target="_blank">klicka här</a>.</div>
 </div>
