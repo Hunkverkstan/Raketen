@@ -307,7 +307,7 @@ a.no:hover {
   color: #0e1623; }
 
 .bettings-bg {
-  background-color: #0e1623; }
+  background-color: #33d49d; }
 
 .bettings-bg-tone {
   background-color: #EDF1F8; }
@@ -364,7 +364,7 @@ body.dark .bettings-bg-tone, body.dark .telegram-bg-tone, body.dark .coffee-bg-t
 body.dark .primary-bg-tone, body.dark .secondary-bg-tone, body.dark .third-bg-tone, body.dark .fourth-bg-tone {
 border:1px solid #273646;}
 
-body.dark .text1, body.dark .bettings, body.dark .telegram, body.dark .coffee, body.dark .twitter {
+body.dark .text1, body.dark .telegram, body.dark .coffee, body.dark .twitter {
   color: #fafafa; }
 
 body.dark .button.bg1 {
