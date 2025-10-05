@@ -358,13 +358,13 @@ a.no:hover {
   background-color: #FDF6EC;border:1px solid #ffd99f; }
 
 /* Dark mode –––––––––––––––––––––––––––––––––––––––––––––––––– */
-body.dark .coffee-bg-tone, body.dark .twitter-bg-tone, body.dark .primary-bg-tone, body.dark .secondary-bg-tone, body.dark .third-bg-tone, body.dark .fourth-bg-tone, body.dark .bg1, body.dark .bg2, body.dark .bg3 {
+body.dark .bettings-bg-tone, body.dark .telegram-bg-tone, body.dark .coffee-bg-tone, body.dark .twitter-bg-tone, body.dark .primary-bg-tone, body.dark .secondary-bg-tone, body.dark .third-bg-tone, body.dark .fourth-bg-tone, body.dark .bg1, body.dark .bg2, body.dark .bg3 {
   background-color: #273646; }
 
 body.dark .primary-bg-tone, body.dark .secondary-bg-tone, body.dark .third-bg-tone, body.dark .fourth-bg-tone {
 border:1px solid #273646;}
 
-body.dark .text1, body.dark .coffee, body.dark .twitter {
+body.dark .text1, body.dark .bettings, body.dark .telegram, body.dark .coffee, body.dark .twitter {
   color: #fafafa; }
 
 body.dark .button.bg1 {
