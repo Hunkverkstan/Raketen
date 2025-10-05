@@ -1,7 +1,7 @@
 <div class="flex marg-large">
 
 <div class="bg-block-1 bettings-bg-tone">  
-<h2 class="bettings marg-small">Track all stats</h2>   
+<h2 class="text1 marg-small">Track all stats</h2>   
 <p class="text1 marg-medium">Access complete stats since the beginning.</p>
 <a class="button bettings-text bettings-bg" href="https://bettin.gs/Rekraketer" target="_blank">Go to Bettin.gs</a>   
 </div> 

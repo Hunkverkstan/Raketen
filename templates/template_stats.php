@@ -17,5 +17,5 @@
 <h3 class="primary marg-small">Wins</h3><h4 class="text1"><?php echo do_shortcode('[get_sheet_value location="Summering!G4"]'); ?></h4>
 </div>
 
-<div id="betting-info" class="bg3 text2"><i class="marg-right" data-feather="info"></i>You can find previous bets and all stats on Bettin.gs by <a href="https://bettin.gs/Rekraketer" target="_blank">clicking here</a>.</div>
+<div id="betting-info" class="bg3 text2"><i class="marg-right" data-feather="info"></i>Rekraketer has been delivering football betting picks since 2018.</div>
 </div>
