@@ -65,12 +65,12 @@ $(".year-stats-box").click(function() {
 
   if (yearStatsInfo.is(":visible")) {
     yearStatsInfo.slideUp(100);
-    textSpan.text("Visa "); // Ändra bara texten
+    textSpan.text("Show "); // Ändra bara texten
     yearStatsMinus.hide();
     yearStatsPlus.show();
   } else {
     yearStatsInfo.slideDown(250);
-    textSpan.text("Dölj "); // Ändra bara texten
+    textSpan.text("Hide "); // Ändra bara texten
     yearStatsMinus.show();
     yearStatsPlus.hide();
   }

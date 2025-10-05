@@ -18,9 +18,9 @@
 <?php endif; ?>
 
 </div>
-<div id="version" class="marg-small"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap marg-right primary"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> Version 1.5</div>
-<p class="text2 marg-no">Skapades av <a href="https://www.hunkverkstan.com" target="_blank">Hunkverkstan</a></p>    
-<p class="text2">Alla rättigheter reserverade • <?php
+<div id="version" class="marg-small"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap marg-right primary"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> Version 2.0</div>
+<p class="text2 marg-no">Created by <a href="https://www.hunkverkstan.com" target="_blank">Hunkverkstan</a></p>    
+<p class="text2">All rights reserved • <?php
 $year = date('Y');
 echo $year;
 ?>
