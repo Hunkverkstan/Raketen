@@ -304,13 +304,16 @@ a.no:hover {
   background-color: #eaf4fb; }
 
 .bettings {
-  color: #0e1623; }
+  color: #33d49d; }
 
 .bettings-bg {
   background-color: #33d49d; }
 
 .bettings-bg-tone {
-  background-color: #EDF1F8; }
+  background-color: #eef4fa; }
+
+.bettings-text {
+color:#373F51!important;}
 
 .telegram {
   color: #24A1DE; }
